@@ -2,7 +2,7 @@ const http = require("http");
 const url = require("url");
 const fs = require("fs");
 
-http
+const server = http
   .createServer(function (req, res) {
     //? LEVANTA HTML
     if (req.url == "/") {
@@ -128,4 +128,4 @@ http
   })
   .listen(3000, () => console.log("Server ON"));
 
-//TODO FALTA TESTING
+module.exports = server;
