@@ -1,1 +1,6 @@
-{"deportes":[{"nombre":"TENNIS","precio":"23000"},{"nombre":"PINGPONG","precio":"10000"},{"nombre":"FUTBOL","precio":"60000"}]}
+{
+  "deportes": [
+    { "nombre": "FUTBOL", "precio": "60000" },
+    { "nombre": "BASKET", "precio": "234444" }
+  ]
+}
